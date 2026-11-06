@@ -1,6 +1,4 @@
-#my git practice
-
-numbers <- c(2,4,6,8)
-mean(numbers)
-sum(numbers)
-sum(numbers,2)
+usethis::create_github_token()
+gitcreds::gitcreds_set()
+usethis::use_git_ignore(c("*.html", "*_files"))
+usethis::use_github()
